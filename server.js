@@ -14,7 +14,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // MongoDB bağlantısı
-mongoose.connect(process.env.MONGODB_URI, {
+mongoose.connect('mongodb+srv://temmuzcetiner:a94gEjBSfJTaQic5@oytun.vxssfaa.mongodb.net/', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 }).then(() => console.log('MongoDB bağlantısı başarılı'))
