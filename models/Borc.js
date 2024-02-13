@@ -12,7 +12,6 @@ const borcSchema = new mongoose.Schema({
     },
     fatura_durumu: {
         type: Boolean,
-        required: true
     },
     tarih: {
         type: Date,
@@ -20,7 +19,6 @@ const borcSchema = new mongoose.Schema({
     },
     vadesi: {
         type: Date,
-        required: true
     },
     odendi_mi: {
         type: Boolean,
